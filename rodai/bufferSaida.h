@@ -2,7 +2,7 @@
 #define BUFFERSAIDA_H
 
 #include <fstream>
-#include "big_file.h"  // Incluir o cabeçalho onde ITEM_VENDA está definido
+#include "big_file.h" 
 
 class BufferSaida {
 public:
@@ -10,7 +10,7 @@ public:
     ~BufferSaida();
     void inserir(const ITEM_VENDA& registro);
     bool isValid() const { return arquivoSaida.is_open(); }
-    void despejar();  // Tornar esta função pública
+    void despejar();
 private:
     std::ofstream arquivoSaida;
     ITEM_VENDA* buffer;
