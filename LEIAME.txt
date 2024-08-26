@@ -1,5 +1,8 @@
 Ordenação Externa com Intercalação K-vias
 
+Alunas: Gabriela Smith Ferreira a2482258
+        Anelly Kovalski Santana a2458578
+
 Descrição
 
 Este projeto implementa um sistema de ordenação externa usando a técnica de intercalação em K-vias. Ele é projetado para ordenar grandes volumes de dados que não cabem na memória RAM de uma só vez.
