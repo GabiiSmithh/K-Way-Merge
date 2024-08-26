@@ -1,0 +1,33 @@
+Ordenação Externa com Intercalação K-vias
+
+Alunas: Gabriela Smith Ferreira a2482258
+        Anelly Kovalski Santana a2458578
+
+Descrição
+
+Este projeto implementa um sistema de ordenação externa usando a técnica de intercalação em K-vias. Ele é projetado para ordenar grandes volumes de dados que não cabem na memória RAM de uma só vez.
+
+Funcionalidades
+
+Inicialização de Dados: Gera dados fictícios para simular grandes volumes.
+Buffer de Entrada e Saída: Gerencia a leitura e escrita dos dados durante a ordenação.
+Intercalação K-vias: Junta e ordena dados de vários arquivos menores em um único arquivo de saída.
+Como Usar
+Pré-requisitos
+Compilador C++
+make (para sistemas Unix/Linux)
+
+Compile o projeto:
+
+make
+
+Execução
+
+Para executar o sistema, use o seguinte comando:
+
+./gerar_arquivo itens_venda.dat <b> <s> saida.dat
+
+<B>: Tamanho máximo em bytes para armazenar registros.
+<S>: Tamanho do buffer de saída em bytes.
+
+Apesar de implementar os requisitos, o sistema não funcionou conforme o esperado. Desculpa, professor ):
